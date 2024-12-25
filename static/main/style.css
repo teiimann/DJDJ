@@ -19,3 +19,31 @@ img.additional-image {
     margin: 15px;
     padding: 10px;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+}
+
+.nav a {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #0056b3;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.nav .dropdown-menu {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+footer {
+    font-size: 0.875rem;
+}
